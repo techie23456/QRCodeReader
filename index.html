@@ -1,9 +1,17 @@
-<script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.js"></script>
 <br><br><br><pre>
 
 
 
-  
+                  <h1>Choose File</h1>
                   <input type="file" id="file" accept="image/*" />
 <p id="out"></p>
 </pre>
@@ -27,3 +35,5 @@
     img.src = URL.createObjectURL(e.target.files[0]);
   });
 </script>
+</body>
+</html>
